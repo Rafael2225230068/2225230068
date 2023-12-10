@@ -1,7 +1,6 @@
-@extends ('layout/uas')
+@extends ('layout.rafael')
 @section('content')
-<a href="/" class= "btn btn-primary">+Tambah Data Pemain Bola Voli</a>
-<p></p>
+<div class="container">
  <table class=table border= "2" cellpadding="10" cellspacing="0">
     <thead>
         <tr>
@@ -22,8 +21,8 @@
                 <td>{{$item->Semester}}</td>
                 <td>{{$item->NomorTelepon}}</td>
                 <td>
-                    <a class='btn btn-warning btn-sm' href="{{url('/UAS/'.$item->Nama.'/edit')}}">Edit</a>
-                   <form onsubmit="return confirm('Apakah Yakin?')" class="d-inline" action="{{'/UAS/'.$item->Nama}}" method="post"> @csrf @method('DELETE')
+                    <a class='btn btn-warning btn-sm' href="{{url('/UAS/Rafael/'.$item->Nama.'/edit')}}">Edit</a>
+                   <form onsubmit="return confirm('Apakah Yakin?')" class="d-inline" action="{{'/UAS/Rafael/'.$item->Nama}}" method="post"> @csrf @method('DELETE')
                     <button class="btn btn-danger btn-sm">Hapus</button>
                     </form>
                 </td>
@@ -31,4 +30,5 @@
         @endforeach
     </tbody>
  </table>
+</div>
 @endsection

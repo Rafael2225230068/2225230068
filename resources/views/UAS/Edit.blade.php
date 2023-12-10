@@ -1,7 +1,8 @@
-@extends ('layout/uas')
+@extends ('layout/rafael')
 @section('content')
-<h3>Edit Data Pemain Bola Voli Untirta</h3>
-<form method="POST" action="{{'/UAS/'.$data->Nama}}" >
+<h3>Edit Data Pemain Bola Voli Tangerang FC</h3>
+<form method="POST" action="{{'/UAS/Rafael/'.$data->Nama}}" >
+  <div class="container">
     @csrf 
     @method('put')
     <div class="mb-3">
@@ -27,6 +28,6 @@
       <div class="mb-3">
         <button>Edit</button> <a class="btn btn-secondry" href="/UAS">Kembali</a>
       </div>
-      
+    </div>
 </form>
 @endsection

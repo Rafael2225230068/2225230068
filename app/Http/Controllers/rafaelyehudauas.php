@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\login;
 use App\Models\rafaelyehuda;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
@@ -9,6 +10,8 @@ use Psy\CodeCleaner\FunctionContextPass;
 
 class rafaelyehudauas extends Controller
 {
+
+    
     /**
      * Display a listing of the resource.
      */
@@ -57,7 +60,7 @@ class rafaelyehudauas extends Controller
             'NomorTelepon'=> $request->input('NomorTelepon')
         ];
         rafaelyehuda::create($data);
-        return redirect('UAS')->with('success','Data Ditambahkan!');
+        return redirect('/')->with('success','Data Ditambahkan!');
     }
 
     /**
@@ -99,7 +102,7 @@ class rafaelyehudauas extends Controller
             'NomorTelepon'=> $request->input('NomorTelepon')
         ];
         rafaelyehuda::where('Nama',$id)->update($data);
-        return redirect('UAS')->with('success','Data Berhasil diUpdate!');
+        return redirect('/')->with('success','Data Berhasil diUpdate!');
 
     }
 
@@ -109,6 +112,6 @@ class rafaelyehudauas extends Controller
     public function destroy(string $id)
     {
         rafaelyehuda::where('Nama',$id)->delete();
-        return redirect('UAS')->with('success','Data Dihapus!');
+        return redirect('/')->with('success','Data Dihapus!');
     }
 }

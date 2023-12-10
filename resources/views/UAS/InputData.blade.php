@@ -1,7 +1,8 @@
-@extends ('layout/uas')
+@extends ('layout.rafael')
 @section('content')
-<h3>Input Data Pemain Bola Voli Untirta</h3>
-<form method="POST" action="/UAS" >
+<div class="container">
+<h3>Input Data Pemain Bola Voli Tangerang FC</h3>
+<form method="POST" action="/UAS/TambahData/Rafael" >
     @csrf 
     <div class="mb-3">
         <label for="Nama" class="form-label">Nama:</label>
@@ -26,5 +27,6 @@
       <div class="mb-3">
         <button>Submit</button>
       </div>
+    </div>
 </form>
 @endsection
