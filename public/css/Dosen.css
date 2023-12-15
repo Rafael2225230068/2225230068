@@ -1,0 +1,42 @@
+.Tampil{
+    text-align: center!important;
+   
+}
+.Tambah{
+    margin-left: 300px!important;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.tambbah{
+    font-size: large!important;
+}
+.tableTampil {
+    margin-left: 300px!important;
+}
+.Next {
+   margin-left: 1000px!important;
+   
+}
+.Text{
+    margin-left: 255px!important;
+}
+/* Akhir Tampilan */
+.FormTambah{
+        margin-left: 15px!important;
+}
+.Input{
+    display: block!important;
+        width: 35%!important;
+}
+.backinput{
+    padding-top: 10px!important;
+}
+/* akhir tambah&edit*/
+.tabledetail{
+    margin-left: 10px!important;
+}
+.backdetail{
+    margin-left: 10px!important;
+    padding-top: 5px!important;
+}
+/* akhir detail */

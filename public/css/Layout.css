@@ -1,0 +1,63 @@
+.Fkip{
+    text-align: center;
+}
+/* Visi Jurusan */
+.Visi{
+    text-align: center;
+    font-size: 50px!important;
+}
+.Judul{
+    text-align: center;
+    font-size: 30px!important;
+}
+.Tulisan{
+    text-align: center;
+}
+.Tujuan{
+    text-align: justify;
+    margin-left: 50px!important;
+    margin-right: 1000px!important;
+}
+.Tujuan2{
+    text-align: justify;
+    margin-left: 68px!important;
+    margin-right: 1000px!important;
+}
+/* Akhir Visi Jurusan */
+/* Struktur Jurusan */
+.Struktur{
+    text-align: center;
+    font-size: 30px!important;
+}
+.FotoStruktur{
+    margin-left: 80px!important;
+}
+/* akhir atruktru jurusan */
+/* Akre */
+.Akre{
+    text-align: center;
+    font-size: 30px!important;
+    margin-top: 10px!important;
+}
+.Akrefoto{
+    margin-left: 105px!important;
+    margin-top: 20px!important;
+}
+/* akhir akre */
+/* Sempro */
+.sempro{
+    margin-left: 13px!important;
+}
+/* akhir sempro */
+/* sidang */
+.Sidang{
+
+    text-align: center;
+    font-size: 30px!important;
+    margin-top: 10px!important;
+}
+.Sidangfoto{
+    margin-top: 20px!important;
+    margin-left: 80px!important;
+}
+/* Akhir sidang */

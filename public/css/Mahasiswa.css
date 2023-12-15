@@ -1,0 +1,33 @@
+.FormTambah{
+    margin-left: 13px!important;
+}
+.form-label{
+    font-size: 15px!important;
+}
+.Input{
+    display: block!important;
+        width: 35%!important;
+}
+/* akhir form edit dan tambah */
+.Tampil{
+    text-align: center!important;
+   
+}
+.Tambah{
+    margin-left: 400px!important;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.tambbah{
+    font-size: large!important;
+}
+.tableTampil {
+    margin-left: 400px!important;
+}
+.Next {
+   margin-left: 1000px!important;
+   
+}
+.Text{
+    margin-left: 255px!important;
+}
